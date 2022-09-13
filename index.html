@@ -11,7 +11,7 @@
 
     <!-- ===== BOX ICONS ===== -->
 
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'>
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
@@ -45,17 +45,17 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="../blog/blog.html" class="nav__logo"><b>@adrianojoseajs</b></a>
+                <a class="nav__logo"><b>@adrianojoseajs</b></a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Início</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
-                    <li class="nav__item"><a href="#newsletter" class="nav__link">Newsletter</a></li>
+                    <li class="nav__item"> <a href="#home" class="nav__link active">Início</a> </li>
+                    <li class="nav__item"> <a href="#about" class="nav__link">Sobre</a> </li>
+                    <li class="nav__item"> <a href="#skills" class="nav__link">Habilidades</a> </li>
+                    <li class="nav__item"> <a href="#work" class="nav__link">Projetos</a> </li>
+                    <li class="nav__item"> <a href="#contact" class="nav__link">Contato</a> </li>
+                    <li class="nav__item"> <a href="#newsletter" class="nav__link">Newsletter</a> </li>
                 </ul>
             </div>
 
@@ -72,15 +72,19 @@
             <div class="home__data">
                 <h1 class="home__title">Olá,<br>sou <span class="home__title-color">Adriano</span><br>Dev front-end</h1>
                 <a href="https://www.buymeacoffee.com/adrianojose" class="button">Buy me a coffee</a>
-                <!-- <a href="https://www.buymeacoffee.com/adrianojose" class="button">My blog</a> -->
+                <a href="pages/blog/blog.html" class="button">My blog</a>
             </div>
 
             <div class="home__social">
-                <a href="https://www.linkedin.com/in/adrianojosedasilvaajs" class="home__social-icon"><i
-                        class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/adrianojoseajs" class="home__social-icon"><i class='bx bxl-github'></i></a>
-                <a href="https://www.youtube.com/channel/UCvwqrxvKnj1tG2SbWOqvEPA" class="home__social-icon"><i
-                        class='bx bxl-youtube'></i></a>
+                <a href="https://www.linkedin.com/in/adrianojosedasilvaajs" class="home__social-icon">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/adrianojoseajs" class="home__social-icon">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCvwqrxvKnj1tG2SbWOqvEPA" class="home__social-icon">
+                    <i class='bx bxl-youtube'></i>
+                </a>
             </div>
 
             <div class="home__img">
@@ -106,7 +110,7 @@
                 <button class="main" type="button" onmouseover="showMessage()" onmouseout="hideMessage()">
                     <!-- <div class="mensagem" >Download do meu CV!</div> -->
                     <a style="color: white" href="random-file.pdf" download>
-                            <img class="icon__download" src="../assets/icondown.png"/>
+                        <img class="icon__download" src="../assets/icondown.png"/>
                     </a>
                 </button>
             </div>
@@ -120,24 +124,56 @@
 
             <div class="about__container bd-grid">
                 <div class="about__img">
-                    <img src="https://i.ibb.co/f2hnpFX/ft-principal.jpg" alt="ft-principal" border="0">
+                    <img src="../assets/perfil_adriano_reverso.jpg" alt="ft-reverso">
                 </div>
 
                 <div>
                     <h2 class="about__subtitle">Sou Adriano José</h2>
-                    <p class="about__text">Tenho como características ser organizado e criativo. Possuo o objetivo de
-                        trabalhar com front-end e WEB Design, ágil com softwares de edição, criação e Frameworks.
-                        Carrego comigo conhecimentos com pacote Adobe, pacote Office, React, Low-code e Linguagens HTML,
-                        CSS e JS. Amante de tecnologia desde que me entendo por gente.
-                        Tenho como minhas mais fortes características ser organizado, criativo e colaborativo. Amante de
-                        tecnologia desde que me entendo por gente.
-                        Tenho como minhas mais fortes características ser organizado, criativo e colaborativo. Amante de
-                        tecnologia desde que me entendo por gente.
-                        Tenho como minhas mais fortes características ser organizado, criativo e colaborativo. Amante de
-                        tecnologia desde que me entendo por gente.
-                        Tenho como minhas mais fortes características ser organizado, criativo e colaborativo. Amante de
-                        tecnologia desde que me entendo por gente.
-                        Tenho como minhas mais fortes características ser organizado, criativo e colaborativo.</p>
+                    <p class="about__text">Olá, tenho 19 anos, e me chamo Adriano José. 
+Atualmente estou cursando Análise e desenvolvimento de sistemas na Fatec Baixada Santista Rubens Lara, e, ocupo o cargo de Desenvolvedor Front-End na ModalGR.
+
+Meu início na programação remonta à minha vontade de criar algo inovador através da tecnologia. 
+Comecei por curiosidade própria pesquisando como eram desenvolvidos os jogos de video game que eu tanto gosto, e foi através dessas pesquisas que conheci a programação e a área de desenvolvimento. Venho estudando assuntos relacionados a tecnologia e desenvolvimento de sistemas desde o início de 2020, o que mais gosto de fazer é criar algo novo, e a área de desenvolvimento me permite isso. Na época, eu não tinha computador, porém, minha curiosidade e vontade de poder desenvolver algo superou essas dificuldades.
+
+Por ser um eterno estudante, adoro estudar em diversas áreas da tecnologia e design. Estudo de forma autodidata, sou extremamente flexível e cultivo autonomia. Eu nunca paro de estudar!
+
+Sou encantado com a possibilidade de resolver qualquer problema através da tecnologia, e para isso procuro sempre me preparar para resolver problemas reais, sempre me colocando à prova.
+
+Minha meta é ter uma carreira consolidada dentro do mercado de tecnologia, podendo ser capaz de não só fazer o meu trabalho da forma mais profissional possível, quanto poder ensinar e ajudar aqueles que trabalham comigo!
+Valorizo um ambiente de trabalho leve e descontraído, onde todos do time possam colaborar da maneira mais autonoma possível.
+Tenho como minhas mais fortes características ser organizado, criativo e colaborativo. Gosto de trabalhar em equipe, acredito que na área de desenvolvimento nuinguém seja capaz de construir um grande projeto sozinho, o trabalho em equipe é necessário para entendermos aquilo que estamos construindo com outras perspectivas e opniões.
+ 
+Objetivos pessoais:
+
+ • Aprender novas habilidades;
+ • Ler mais;
+
+Objetivos profissionais:
+
+ • Adquirir conhecimento;
+ • Obter uma certificação;
+ • Desenvolver habilidades de liderança;
+ • Aprender um novo idioma;
+ • Realizar uma pós-graduação;
+
+Tenho uma base sólida e documentada em:
+
+ • HTML;
+ • CSS;
+ • Javascript;
+ • Typescript;
+ • React.js;
+ • React Native;
+ • Node.js;
+
+Como eu disse, nunca paro de estudar!
+
+📚 Estudando agora:
+
+• Front-end: Angular;
+• Back-end: .Net;
+
+Estou sempre disposto a aprender mais para fazer com que meu resultado seja o melhor possível!</p>
                 </div>
             </div>
         </section>
@@ -381,7 +417,7 @@
 
                             </div>
                             <div>
-                                <span class="skills__percentage">5%</span>
+                                <span class="skills__percentage">30%</span>
                             </div>
                         </div>
                     </a>
@@ -458,7 +494,11 @@
         <!--===== WORK =====-->
 
         <section class="work section" id="work">
-            <h2 class="section-title">Projetos</h2>
+            <div class="bd-grid">
+                <h2 class="section-title">Projetos</h2>
+                <h2 class="skills__subtitle">Projetos profissionais</h2>
+                <p class="skills__text">Projetos realizados por mim, para aprimorar meu conhecimento técnico: </p>
+            </div>
             <div class="container">
                 <div class="card">
                     <div class="box">
@@ -467,8 +507,9 @@
                             <h3>Tonobox</h3>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                             <a href="#">Mais informações...</a>
-                            <a href="https://github.com/adrianojoseajs" class="home__social-icon"><i
-                                    class='bx bxl-github'></i></a>
+                            <a href="https://github.com/adrianojoseajs" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -479,8 +520,9 @@
                             <h3>WASD</h3>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                             <a href="#">Mais informações...</a>
-                            <a href="https://github.com/adrianojoseajs" class="home__social-icon"><i
-                                    class='bx bxl-github'></i></a>
+                            <a href="https://github.com/adrianojoseajs" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -491,8 +533,9 @@
                             <h3>Game Tracker</h3>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                             <a href="#">Mais informações...</a>
-                            <a href="https://github.com/adrianojoseajs" class="home__social-icon"><i
-                                    class='bx bxl-github'></i></a>
+                            <a href="https://github.com/adrianojoseajs" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -503,8 +546,9 @@
                             <h3>Formulário</h3>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                             <a href="#">Mais informações...</a>
-                            <a href="https://github.com/adrianojoseajs" class="home__social-icon"><i
-                                    class='bx bxl-github'></i></a>
+                            <a href="https://github.com/adrianojoseajs" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -515,8 +559,9 @@
                             <h3>E-commerce</h3>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
                             <a href="#">Mais informações...</a>
-                            <a href="https://github.com/adrianojoseajs" class="home__social-icon"><i
-                                    class='bx bxl-github'></i></a>
+                            <a href="https://github.com/adrianojoseajs" class="home__social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -534,7 +579,7 @@
                 </div>
             </div>
             <div class="container">
-                <a href="#" class="button_continue">Todos os projetos...</a>
+                <a href="#" class="button">Todos os projetos...</a>
             </div>
         </section>
 

@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Augusto L. Camarano">
-    <meta name="creator" content="Augusto L. Camarano">
-    <meta name="copyright" content="Augusto L. Camarano - eaecamarano">
+    <meta name="author" content="Adriano José">
+    <meta name="creator" content="Adriano José">
+    <meta name="copyright" content="Adriano José">
     <meta name="description" content="O melhor blog de notícias sobre tecnologia do mundo.">
-    <meta name="keywords" content="blog, codelândia, eaecamarano, iuricode, noticias, tecnologia, tech, html5, css3">
+    <meta name="keywords" content="blog, noticias, tecnologia, tech">
     <!--Fontes - Importação do Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,24 +17,31 @@
     <!--CSS-->
     <link rel="stylesheet" href="../blog/blog.css">
     <!--Título-->
-    <title>Blog Adriano José</title>
+    <title>Blog</title>
 </head>
 <body>
     <!--Início - Header-->
-    <header class="full__header">
-        <div class="div__dad">
-            <div class="div__text">
-                <h1>Codelândia</h1>
-                <p>
-                    Blog
-                </p>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="pages/blog/blog.html" class="nav__logo"><b>@adrianojoseajs</b></a>
             </div>
-            <div class="div__search">
-                <form action="">
-                    <input type="text" placeholder="Pesquise no blog">
-                </form>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Início</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                    <li class="nav__item"><a href="#newsletter" class="nav__link">Newsletter</a></li>
+                </ul>
             </div>
-        </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
     </header>
     <!--Fim - Header-->
     <!--Início - Main-->
@@ -46,10 +53,6 @@
                     <p class="date">
                         14 de jun, 2022
                     </p>
-                    <figure>
-                        <img src="assets/img/like.svg" alt="Ícone para curtir a notícia">
-                        <figcaption hidden>Curtir a notícia</figcaption>
-                    </figure>
                 </div>
                 <div class="div__news">
                     <h2 class="title">LaMDA, IA do Google, não estaria “nem perto” de ser autoconsciente, afirma cientista cognitivo</h2>
@@ -64,10 +67,6 @@
                     <p class="date">
                         14 de jun, 2022
                     </p>
-                    <figure>
-                        <img src="assets/img/like.svg" alt="Ícone para curtir a notícia">
-                        <figcaption hidden>Curtir a notícia</figcaption>
-                    </figure>
                 </div>
                 <div class="div__news">
                     <h2 class="title">Brasil denuncia venda de domínio para Amazon</h2>
@@ -82,10 +81,6 @@
                     <p class="date">
                         14 de jun, 2022
                     </p>
-                    <figure>
-                        <img src="assets/img/like.svg" alt="Ícone para curtir a notícia">
-                        <figcaption hidden>Curtir a notícia</figcaption>
-                    </figure>
                 </div>
                 <div class="div__news">
                     <h2 class="title">Agência espacial europeia libera nova atualização do mapa tridimensional da Via Láctea</h2>
@@ -100,10 +95,6 @@
                     <p class="date">
                         13 de jun, 2022
                     </p>
-                    <figure>
-                        <img src="assets/img/like.svg" alt="Ícone para curtir a notícia">
-                        <figcaption hidden>Curtir a notícia</figcaption>
-                    </figure>
                 </div>
                 <div class="div__news">
                     <h2 class="title">Engenheiro do Google é suspenso após afirmar que IA tornou-se autoconsciente</h2>
@@ -118,10 +109,6 @@
                     <p class="date">
                         13 de jun, 2022
                     </p>
-                    <figure>
-                        <img src="assets/img/like.svg" alt="Ícone para curtir a notícia">
-                        <figcaption hidden>Curtir a notícia</figcaption>
-                    </figure>
                 </div>
                 <div class="div__news">
                     <h2 class="title">CEOs de empresas de tecnologia avaliam criar arquivo permanente com informações de desempenho de trabalhadores de TI</h2>
@@ -136,10 +123,6 @@
                     <p class="date">
                         13 de jun, 2022
                     </p>
-                    <figure>
-                        <img src="assets/img/like.svg" alt="Ícone para curtir a notícia">
-                        <figcaption hidden>Curtir a notícia</figcaption>
-                    </figure>
                 </div>
                 <div class="div__news">
                     <h2 class="title">Pesquisa mostra quanto custam dados pessoais de brasileiros no mundo do cibercrime</h2>
@@ -154,10 +137,6 @@
                     <p class="date">
                         13 de jun, 2022
                     </p>
-                    <figure>
-                        <img src="assets/img/like.svg" alt="Ícone para curtir a notícia">
-                        <figcaption hidden>Curtir a notícia</figcaption>
-                    </figure>
                 </div>
                 <div class="div__news">
                     <h2 class="title">Ciberataques podem levar a conflito militar direto, com consequências imprevisíveis, alerta Rússia</h2>
@@ -172,10 +151,6 @@
                     <p class="date">
                         13 de jun, 2022
                     </p>
-                    <figure>
-                        <img src="assets/img/like.svg" alt="Ícone para curtir a notícia">
-                        <figcaption hidden>Curtir a notícia</figcaption>
-                    </figure>
                 </div>
                 <div class="div__news">
                     <h2 class="title">Spotify compra plataforma de IA que reproduziu voz de ator em “Top Gun: Maverick”</h2>
